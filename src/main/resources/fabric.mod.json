@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "aurasystemrpg",
+  "version": "${version}",
+  "name": "Aura System RPG",
+  "description": "Farmea aura, sube de rango, reparte estadisticas y lanza poderes. Etapa 1: aura, niveles, estadisticas, guardado y un poder.",
+  "authors": ["Aura System RPG"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.aurasystem.rpg.AuraSystemMod"],
+    "client": ["com.aurasystem.rpg.client.AuraSystemClient"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
